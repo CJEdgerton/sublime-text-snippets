@@ -1,0 +1,20 @@
+<snippet>
+	<content><![CDATA[
+<div class="form-group">
+	<label for="${1:}">
+		${2:Name}:
+	</label>
+	<select 
+		name="${1:}" 
+		id="${1:}" 
+		class="form-control" 
+		>
+		<option value=""></option>
+	</select>
+</div>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fg-select</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>

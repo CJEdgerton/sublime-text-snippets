@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<input 
+	type="text" 
+	name="${1:input}" 
+	id="${1:input}" 
+	class="form-control" 
+	value="${2:}" 
+	required="required" 
+	placeholder="${3:}">	
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>textfield</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.php</scope> -->
+</snippet>
